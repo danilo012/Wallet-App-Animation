@@ -1,27 +1,59 @@
-.container
-  .mobile
-    .content
-      .cards
-        .title My Cards
-        .card-wrapper
-          .card.black
-            .logo
-              .circle.red
-              .circle.yellow
-            .details
-              .number ****4089646
-              .bottom
-                .name JOHN WICK
-                .expiry 11/24
-          
-      .transactions
-        .transaction
-          .image-wrapper
-            i.fab.fa-amazon
-          .vendor-details
-            .title Amazon
-            .description Groceries
-          .transaction-details
-            .price $28.8
-            .date 21.07.2020
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Wallet App Animation</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <div class="mobile">
+    <div class="content">
+      <div class="cards">
+        <div class="title">My Cards</div>
+        <div class="card-wrapper">
+          <div class="card black">
+            <div class="logo">
+              <div class="circle red"></div>
+              <div class="circle yellow"></div>
+            </div>
+            <div class="details">
+              <div class="number">1234 5678 9876 5432</div>
+              <div class="bottom">
+                <div class="name">JOHN WICK</div>
+                <div class="expiry">04/24</div>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="transactions">
+        <div class="transaction">
+          <div class="image-wrapper"><i class="fab fa-amazon"></i></div>
+          <div class="vendor-details">
+            <div class="title">Amazon</div>
+            <div class="description">Groceries</div>
+          </div>
+          <div class="transaction-details">
+            <div class="price">$28.8</div>
+            <div class="date">21.07.2020</div>
+          </div>
+        </div>
         
+
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
